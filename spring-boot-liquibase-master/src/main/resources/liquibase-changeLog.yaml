@@ -1,0 +1,82 @@
+databaseChangeLog:
+- changeSet:
+        id: 1
+        author: vikas rathore
+        changes:
+        - createTable:
+                tableName: file_header
+                columns:
+                - column:
+                        name: id
+                        type: int
+                        autoIncrement: true
+                        constraints:
+                              primaryKey: true
+                              nullable: false
+                - column:
+                        name: record_type_code
+                        type: int(1)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: priority_code
+                        type: int(2)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: immediate_destination
+                        type: varchar(10)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: immediate_origin
+                        type: varchar(10)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: file_creation_date
+                        type: date
+                        constraints:
+                              nullable: false
+                - column:
+                        name: file_creation_time
+                        type: time
+                        constraints:
+                              nullable: false
+                - column:
+                        name: file_id_modifier
+                        type: varchar(1)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: record_size
+                        type: varchar(3)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: blocking_factor
+                        type: varchar(2)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: format_code
+                        type: varchar(1)
+                        constraints:
+                              nullable: false
+                - column:
+                        name: destination_name
+                        type: varchar(23)
+                        constraints:
+                              nullable: true
+                - column:
+                        name: immediate_origin_name
+                        type: varchar(23)
+                        constraints:
+                              nullable: true
+                - column:
+                        name: reference_code
+                        type: varchar(8)
+                        constraints:
+                              nullable: true
+
+
