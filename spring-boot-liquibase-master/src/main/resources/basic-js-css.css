@@ -1,0 +1,1017 @@
+body.script-body .script-header .hipay-logo {
+	display: block;
+	width: 122px;
+	height: 60px;
+	background: url("https://mdn.mozillademos.org/files/16761/star.gif") -14px -4px no-repeat
+}
+
+body.script-body .script-footer .hipay-logo {
+	display: none;
+	width: 97px;
+	height: 30px;
+	background: url('/images/payment-products/sprite_secure.png') 0px 0px no-repeat
+}
+
+body.script-body .script-footer .hipay-logo-footer-container {
+	display: none
+}
+
+body.script-body .script-footer .secure-logo {
+	display: block;
+	width: 330px;
+	height: 37px;
+	background: url('/images/payment-products/sprite_secure.png') 75px -34px no-repeat;
+	margin: 0 auto
+}
+
+body.script-body .script-footer .pci-logo {
+	background: url("/images/payment-products/sprite_secure.png") no-repeat scroll 60px -35px transparent;
+	display: block;
+	height: 35px;
+	margin: 0 auto;
+	width: 150px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+	body.script-body .script-footer .pci-logo {
+		background: url("/images/payment-products/sprite_securex2.png") no-repeat scroll 60px -35px transparent;
+		background-size: 250px 75px
+	}
+	body.script-body .script-footer .hipay-logo {
+		background: url("/css/img/payment-products/sprite_securex2.png") no-repeat scroll 0 0 transparent;
+		background-size: 250px 75px
+	}
+}
+
+[class^="payment-product-sprite-"] {
+	display: block;
+	height: 45px;
+	width: 75px;
+	background-image: url("/images/payment-products/payment_product_sprites_small.png?101");
+	background-repeat: no-repeat;
+	cursor: pointer
+}
+
+i.payment-product-sprite-mastercard {
+	background-position: 0px 0px
+}
+
+i.payment-product-sprite-visa {
+	background-position: -75px 0px
+}
+
+i.payment-product-sprite-maestro {
+	background-position: -150px 0px
+}
+
+i.payment-product-sprite-american-express {
+	background-position: -225px 0px
+}
+
+i.payment-product-sprite-payshop {
+	background-position: -300px 0px
+}
+
+i.payment-product-sprite-multibanco {
+	background-position: -375px 0px
+}
+
+i.payment-product-sprite-kbc-online {
+	background-position: -450px 0px
+}
+
+i.payment-product-sprite-cbc-online {
+	background-position: -525px 0px
+}
+
+i.payment-product-sprite-sofort-uberweisung {
+	background-position: -600px 0px
+}
+
+i.payment-product-sprite-ing-homepay {
+	background-position: 0px -45px
+}
+
+i.payment-product-sprite-ideal {
+	background-position: -75px -45px
+}
+
+i.payment-product-sprite-giropay {
+	background-position: -150px -45px
+}
+
+i.payment-product-sprite-dexia-directnet {
+	background-position: -300px -45px
+}
+
+i.payment-product-sprite-bcmc {
+	background-position: -375px -45px
+}
+
+i.payment-product-sprite-cb {
+	background-position: -525px -45px
+}
+
+i.payment-product-sprite-sisal {
+	background-position: -0px -90px
+}
+
+i.payment-product-sprite-yandex {
+	background-position: -75px -90px
+}
+
+i.payment-product-sprite-webmoney-transfer {
+	background-position: -150px -90px
+}
+
+i.payment-product-sprite-qiwi-wallet {
+	background-position: -225px -90px
+}
+
+i.payment-product-sprite-przelewy24 {
+	background-position: -300px -90px
+}
+
+i.payment-product-sprite-payulatam {
+	background-position: -450px -90px
+}
+
+i.payment-product-sprite-cobro-express {
+	background-position: -150px -135px
+}
+
+i.payment-product-sprite-naranja {
+	background-position: -225px -135px
+}
+
+i.payment-product-sprite-cabal {
+	background-position: -300px -135px
+}
+
+i.payment-product-sprite-tarjeta-shopping {
+	background-position: -375px -135px
+}
+
+i.payment-product-sprite-provincia {
+	background-position: -450px -135px
+}
+
+i.payment-product-sprite-ripsa {
+	background-position: -525px -135px
+}
+
+i.payment-product-sprite-argencard {
+	background-position: -600px -135px
+}
+
+i.payment-product-sprite-pago-facil {
+	background-position: -0px -180px
+}
+
+i.payment-product-sprite-rapipago {
+	background-position: -75px -180px
+}
+
+i.payment-product-sprite-censosud {
+	background-position: -150px -180px
+}
+
+i.payment-product-sprite-diners {
+	background-position: -225px -180px
+}
+
+i.payment-product-sprite-elo-card {
+	background-position: -300px -180px
+}
+
+i.payment-product-sprite-baloto {
+	background-position: -375px -180px
+}
+
+i.payment-product-sprite-efecty {
+	background-position: -450px -180px
+}
+
+i.payment-product-sprite-oxxo {
+	background-position: -525px -180px
+}
+
+i.payment-product-sprite-ixe {
+	background-position: -600px -180px
+}
+
+i.payment-product-sprite-bcp {
+	background-position: -0px -225px
+}
+
+i.payment-product-sprite-paysafecard {
+	background-position: -600px -90px
+}
+
+i.payment-product-sprite-klarnainvoice {
+	background-position: -75px -135px
+}
+
+i.payment-product-sprite-3xcb {
+	background-position: -75px -225px
+}
+
+i.payment-product-sprite-bank-transfer {
+	background-position: -150px -225px
+}
+
+i.payment-product-sprite-paypal {
+	background-position: -225px -225px
+}
+
+i.payment-product-sprite-bitcoin {
+	background-position: -300px -225px
+}
+
+i.payment-product-sprite-cofinoga {
+	background-position: -375px -90px
+}
+
+i.payment-product-sprite-4xcb {
+	background-position: -450px -225px
+}
+
+i.payment-product-sprite-3xcb-no-fees {
+	background-position: -525px -225px
+}
+
+i.payment-product-sprite-4xcb-no-fees {
+	background-position: -600px -225px
+}
+
+i.payment-product-sprite-carte-accord {
+	background-position: -0px -270px
+}
+
+i.payment-product-sprite-sdd {
+	background-position: -75px -270px
+}
+
+i.payment-product-sprite-sct {
+	background-position: -75px -270px
+}
+
+i.payment-product-sprite-bcmc-mobile {
+	background-position: -150px -270px
+}
+
+i.payment-product-sprite-visa-debit {
+	background-position: -225px -270px
+}
+
+i.payment-product-sprite-aura {
+	background-position: -300px -270px
+}
+
+i.payment-product-sprite-banamex {
+	background-position: -375px -270px
+}
+
+i.payment-product-sprite-bbva-bancomer {
+	background-position: -450px -270px
+}
+
+i.payment-product-sprite-banco-do-brasil {
+	background-position: -525px -270px
+}
+
+i.payment-product-sprite-boleto-bancario {
+	background-position: -600px -270px
+}
+
+i.payment-product-sprite-bradesco {
+	background-position: -0px -315px
+}
+
+i.payment-product-sprite-discover {
+	background-position: -75px -315px
+}
+
+i.payment-product-sprite-hipercard {
+	background-position: -150px -315px
+}
+
+i.payment-product-sprite-itau {
+	background-position: -225px -315px
+}
+
+i.payment-product-sprite-jcb {
+	background-position: -300px -315px
+}
+
+i.payment-product-sprite-santander-home-banking {
+	background-position: -375px -315px
+}
+
+i.payment-product-sprite-santander-cash {
+	background-position: -375px -315px
+}
+
+i.payment-product-sprite-mercadopago {
+	background-position: -450px -315px
+}
+
+i.payment-product-sprite-mastercard-debit {
+	background-position: -525px -315px
+}
+
+i.payment-product-sprite-bacs {
+	background-position: -530px -404px
+}
+
+i.payment-product-sprite-caixa {
+	background-position: -600px -315px
+}
+
+i.payment-product-sprite-postfinance-card {
+	background-position: -75px -360px
+}
+
+i.payment-product-sprite-postfinance-efinance {
+	background-position: -150px -360px
+}
+
+i.payment-product-sprite-fivory {
+	background-position: -225px -360px
+}
+
+i.payment-product-sprite-carte-cadeau {
+	background-position: -300px -360px
+}
+
+i.payment-product-sprite-bnpp-3xcb {
+	background-position: -375px -360px
+}
+
+i.payment-product-sprite-bnpp-4xcb {
+	background-position: -450px -360px
+}
+
+i.payment-product-sprite-skrill {
+	background-position: -525px -360px
+}
+
+i.payment-product-sprite-safetypay {
+	background-position: -600px -360px
+}
+
+i.payment-product-sprite-mybank {
+	background-position: 0px -405px
+}
+
+i.payment-product-sprite-cup {
+	background-position: -75px -405px
+}
+
+i.payment-product-sprite-alipay-ecommerce {
+	background-position: -226px -403px
+}
+
+i.payment-product-sprite-credit-long {
+	background-position: -152px -403px
+}
+
+i.payment-product-sprite-carte-titre-restaurant {
+	background-position: -375px -403px
+}
+
+i.payment-product-sprite-divido {
+	background-position: -450px -403px
+}
+
+i.payment-product-sprite-wechatpay {
+	background-position: -600px -403px
+}
+
+i.payment-product-sprite-mbway {
+	background-position: 0 -450px
+}
+
+i.payment-product-sprite-illicado {
+	background-position: -74px -451px
+}
+
+i.payment-product-sprite-interac-online {
+	background-position: -150px -444px
+}
+
+.digicert-seal[style] {}
+
+.digicert-seal {
+	margin-right: 15px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.digicert-seal img {
+	max-width: 50px;
+	width: 60px\9;
+	height: 40px\9
+}
+
+.digicert-seal span {
+	display: none
+}
+
+.inline-security {
+	display: inline-block;
+	padding: 0
+}
+
+@media screen and (max-width: 768px) {
+	body.script-body .script-footer .payment-sprite-hipay {
+		display: block
+	}
+	body.script-body .script-header .hipay-logo {
+		display: none
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+	[class^="payment-product-sprite-"] {
+		display: block;
+		height: 45px;
+		width: 75px;
+		background-image: url("/images/payment-products/payment_product_sprites_big.png?101");
+		background-size: 675px 495px;
+		background-repeat: no-repeat
+	}
+	[class^="payment-security-sprite-"],
+	[class^="payment-sprite-"] {
+		display: block;
+		height: 37.5px;
+		width: 90px;
+		background-image: url("/images/payment-products/sprite_securex2.png");
+		background-size: 500px 150px;
+		background-repeat: no-repeat
+	}
+	body.script-body .script-header .hipay-logo {
+		background-position: 0px 0px;
+		background: url("/images/payment-products/sprite_securex2.png") no-repeat scroll 0px 0px transparent;
+		background-size: 250px 75px;
+		display: inline-block;
+		width: 75px;
+		height: 40px
+	}
+}
+
+[class^="payment-security-sprite-"] {
+	display: inline-block;
+	background: url(/images/payment-products/sprite_securex2.png);
+	background: url(/images/payment-products/sprite_secure.png)\9;
+	background-repeat: no-repeat;
+	background-size: 250px 75px;
+	background-size: 255px 75px\9;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: 10px
+}
+
+.payment-security-sprite-pci {
+	background-position: -1px -43px;
+	width: 90px;
+	height: 30px
+}
+
+.payment-security-sprite-mastercard {
+	width: 61px;
+	height: 30px;
+	background-position: -106px -43px
+}
+
+.payment-security-sprite-visa {
+	width: 51px;
+	height: 30px;
+	background-position: -190px -43px
+}
+
+.payment-security-sprite-payulatam {
+	width: 51px;
+	height: 30px;
+	background-position: -190px -43px
+}
+
+.payment-security-sprite-hipay {
+	width: 60px;
+	height: 35px;
+	background-position: -7px -2px
+}
+
+div.cancel-order {
+	padding-top: 10px;
+	padding-right: 35px;
+	height: 30px;
+	width: 100%;
+	text-align: right;
+	float: right;
+	position: absolute
+}
+
+[class^="icon"],
+[class*=" icon"] {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	*margin-right: .3em;
+	line-height: 14px;
+	vertical-align: text-top;
+	background: url("/img/glyphicons-halflings.png") no-repeat 14px 14px
+}
+
+.icon-remove {
+	background-position: -312px 0
+}
+
+body.script-body {
+	background-color: #ebebeb
+}
+
+body.iframe-body {
+	background-color: #FFF
+}
+
+body.script-body .row,
+body.script-body .row-fluid {
+	margin: 20px auto;
+	max-width: 600px;
+	min-width: 280px
+}
+
+body.script-body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 12px
+}
+
+body.script-body .row .script-border,
+body.script-body .row-fluid .script-border {
+	border: 1px solid rgba(5, 5, 5, 0.3);
+	border: 1px solid #C0C0C0\9;
+	border-radius: 3px;
+	padding: 20px;
+	background-color: #FFF
+}
+
+body.script-body .script-header .back-link {
+	color: #CCC;
+	font-weight: bold;
+	text-decoration: none
+}
+
+body.script-body .script-header {
+	margin: 0
+}
+
+body.script-body .script-order-header {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+	padding: 10px 0
+}
+
+body.script-body table.order-summary {
+	color: #888;
+	margin-bottom: 0
+}
+
+body.script-body table.order-summary td,
+body.script-body table.order-summary th {
+	border: medium none;
+	padding: 0
+}
+
+body.script-body table.order-summary td.order-summary-merchant-name,
+body.script-body table.order-summary td.order-summary-amount,
+body.script-body table.order-summary td.order-summary-reference {
+	color: #005a94;
+	font-weight: bold;
+	padding-left: 5px
+}
+
+#payment-product-description {
+	margin-bottom: 10px;
+	text-align: justify
+}
+
+body.script-body .form-actions .submit-button {
+	display: inline-block;
+	font-weight: bold;
+	border-radius: 3px;
+	height: 40px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	width: 100%;
+	background-color: #005a94;
+	color: #FFF;
+	font-family: gothammed, Helvetica, sans-serif;
+	padding: 6px 10px;
+	width: 100%
+}
+
+body.script-body .form-actions .submit-button:hover {
+	background-color: #004a7b
+}
+
+.form-horizontal .control-group {
+	margin-bottom: 10px !important
+}
+
+body.script-body .form-horizontal input,
+body.script-body .form-horizontal select {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	height: 40px;
+	color: #555;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	vertical-align: middle;
+	width: 100%;
+	font-style: italic;
+	padding: 10px;
+	padding-left: 18px
+}
+
+body.script-body .form-horizontal .error .controls input,
+body.script-body .form-horizontal .errors .controls input,
+body.script-body .form-horizontal .error select,
+body.script-body .form-horizontal .errors select,
+body.script-body .form-horizontal .errors .controls select {
+	border-color: #C33 !important;
+	color: #C33 !important;
+	text-shadow: none
+}
+
+body.script-body .form-horizontal .error .help-inline {
+	color: #FFF !important;
+	background-color: #C33 !important;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px
+}
+
+body.script-body .form-horizontal label {
+	color: #4D504A;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.loading {
+	color: #888;
+	margin: 150px 50px 160px 50px
+}
+
+.alert-info {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+	color: #005a94;
+	padding: 10px;
+	line-height: 20px;
+	vertical-align: middle
+}
+
+@media screen and (min-width: 768px) {
+	.form-horizontal .form-group {
+		margin-left: 0;
+		margin-right: 0
+	}
+	.form-horizontal .form-group #paymentMeanLabel p {
+		height: 40px
+	}
+	#paymentMeanLabel {
+		padding-left: 0px;
+		padding-right: 0px
+	}
+	.form-horizontal .form-group label {
+		height: 40px;
+		line-height: 20px;
+		-webkit-border-radius: 3px 0 0 3px;
+		-moz-border-radius: 3px 0 0 3px;
+		border-radius: 3px 0 0 3px;
+		border-width: 1px 0px 1px 1px !important;
+		border-style: solid;
+		border-color: #CCC;
+		padding: 10px;
+		vertical-align: middle
+	}
+	.form-horizontal .form-group .input-control {
+		padding-left: 0px !important;
+		padding-right: 0px !important
+	}
+	body.script-body .form-horizontal input,
+	body.script-body .form-horizontal select {
+		-webkit-border-radius: 0 3px 3px 0;
+		-moz-border-radius: 0 3px 3px 0;
+		border-radius: 0 3px 3px 0
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#paymentMeanForm .form-group label {
+		border: none !important
+	}
+	body {
+		padding: 0
+	}
+	body.script-body .row .script-border {
+		border: medium none
+	}
+	body.script-body .row {
+		margin-top: 0;
+		max-width: 100%
+	}
+	body.script-body .form-horizontal .controls {
+		margin-left: auto
+	}
+	body.script-body .form-actions {
+		padding: 0 0 20px
+	}
+	body.script-body table.order-summary {
+		margin-top: 20px
+	}
+	body.script-body .script-header {
+		height: 20px
+	}
+	body.script-body .script-footer {
+		margin-bottom: 0;
+		margin-top: 10px;
+		text-align: center
+	}
+	body.script-body table.order-summary td,
+	body.script-body table.order-summary th {
+		padding: 0 5px
+	}
+	html body {
+		padding: 5px
+	}
+	.script-header {
+		display: none
+	}
+	.input-group-addon:first-child {
+		font-weight: bold;
+		border: 0px
+	}
+}
+
+.reference-to-pay {
+	font-size: 2.5em
+}
+
+.sisal-barcode-parent-container {
+	margin: 0 auto;
+	padding: 10px 10px 0 10px
+}
+
+.sisal-barcode-container {
+	margin: 0 auto;
+	border-top: 1px solid black;
+	width: 350px
+}
+
+body.script-body .form-horizontal .customer-infos .controls {
+	margin-left: auto;
+	clear: both
+}
+
+body.script-body .form-horizontal .customer-infos .control-group:first-child .controls {
+	margin-right: 25px
+}
+
+body.script-body .form-horizontal input[type="radio"] {
+	height: 40px
+}
+
+input[type="radio"] {
+	display: none !important
+}
+
+label.inline.radio {
+	opacity: 0.4;
+	margin: 6px 10px 6px 10px;
+	padding: 0px;
+	display: inline-block;
+	border: 1px solid #FFF;
+	padding: 0px 1px 2px 1px;
+	border-radius: 3px
+}
+
+label.inline.radio.selected {
+	opacity: 1;
+	border: 1px solid #005a94;
+	border-radius: 3px
+}
+
+.condensed {
+	padding: 1px !important
+}
+
+.script-footer div.controls {
+	text-align: center
+}
+
+#paymentMeanForm input,
+#paymentMeanForm select {
+	margin-bottom: 0px
+}
+
+.error input,
+.error select,
+.error label {
+	border: 1px solid #C33 !important;
+	color: #C33 !important;
+	text-shadow: none
+}
+
+.error-row {
+	color: #C33 !important;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 1.5em;
+	text-align: center
+}
+
+#cardExpiryMonth {
+	width: 75px
+}
+
+#cardExpiryYear {
+	width: 100px;
+	border-radius: 3px 3px 3px 3px
+}
+
+#cardSecurityCodeInfoContent {
+	display: none
+}
+
+#cardSecurityCodeInfo {
+	font-family: Helvetica Neue, ​Helvetica, ​Arial, ​sans-serif;
+	background-color: #005A94;
+	border-radius: 50%;
+	padding: 1px 7px;
+	margin-left: 5px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none !important;
+	cursor: pointer
+}
+
+#cardSecurityCodeInfo label {
+	font-weight: normal
+}
+
+.popover-content {
+	font-weight: normal
+}
+
+a.close {
+	float: right;
+	font-weight: bold;
+	text-decoration: none !important;
+	background-color: #005A94;
+	border-radius: 50%;
+	padding: 1px 6px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer
+}
+
+#orderSummaryTab {
+	float: right\9;
+	width: 50%\9;
+	word-wrap: break-word
+}
+tr#orderSummaryReferenceTR {
+   display: none;
+}
+.tooltip-inner {
+	max-width: 105%;
+	position: absolute;
+	z-index: 2;
+	background-color: #fff;
+	padding: 2px;
+	margin: 10px;
+	border: thin dashed #428bca
+}
+
+#longDescriptionA {
+	word-break: break-all
+}
+
+#longDescriptionTR {
+	display: none
+}
+
+@media all and (max-width: 480px) {
+	.popover {
+		width: 170px
+	}
+	.popover-content img {
+		width: 150px
+	}
+}
+
+#editableAmountGroup p {
+	clear: both
+}
+
+#editableAmountGroup label {
+	width: 150px
+}
+
+#editableAmount {
+	width: 100px
+}
+
+#editableAmount:disabled {
+	background: lightgray;
+	color: grey
+}
+
+@media screen and (min-width: 512px) {
+	#expirationDateGroup:not(.full-screen) {
+		float: left;
+		display: inline-block;
+		width: 50%
+	}
+	#cardSecurityCodeGroup {
+		float: right;
+		display: inline-block;
+		width: 50%
+	}
+}
+
+#expirationDateGroup label,
+#cardSecurityCodeGroup label {
+	border-style: none !important;
+	display: block;
+	width: 100%
+}
+
+#expirationDateGroup div,
+#cardSecurityCodeGroup div {
+	display: inline-block;
+	width: 100%
+}
+
+#cardSecurityCodeGroup .arrow {
+	width: 0
+}
+
+.script-footer div.controls {
+	text-align: center
+}
+
+.reference-to-pay {
+	line-height: normal;
+	font-size: 2.5em
+}
+
+.sisal-barcode-container {
+	margin: 0 auto;
+	border-top: 1px solid black;
+	width: 350px
+}
+
+#paymentMeanForm input:read-only {
+	background-color: #f6f6f6
+}
+
+.error-row {
+	color: #C33 !important;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 1.5em;
+	text-align: center
+}
+
+@media all and (max-width: 550px) {
+	.popover {
+		width: 170px
+	}
+	.popover-content img {
+		width: 150px
+	}
+}
